@@ -91,6 +91,13 @@ parameter:
     visible: false
     default_value: "${sysdate('$0s@0s')}"
 
+  - name: auth_key
+    description: "auth key test"
+    required: true
+    visible: true
+    default_value: "!234qwer"
+    masked: true 
+
 environment:
   - key: test_env1
     value: test_value1
